@@ -58,7 +58,7 @@ module.exports = function(app, route) {
 	});
 
 	app.get('/getBanks', function(req, res){
-	  consumer.get("https://apisandbox.openbankproject.com/obp/v1.2.1/banks/rbs/accounts/private",
+	  consumer.get("https://https://rbs.openbankproject.com/obp/v1.4.0/banks/rbs/accounts/private",
 	  req.session.oauthAccessToken,
 	  req.session.oauthAccessTokenSecret,
 	  function (error, data, response) {
