@@ -1,0 +1,11 @@
+client/.sass-cache
+client/.tmp
+client/bower_components
+client/npm-debug.log
+client/Gruntfile.js
+saveApp.sublime-project
+saveApp.sublime-workspace
+server/sftp-config.json
+server/node_modules
+server/npm-debug.log
+server/uploads
