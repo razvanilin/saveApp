@@ -1,6 +1,6 @@
 var config = require('./settings');
 
 var routes = {};
-routes['/user'] = require('./controllers/testController');
+routes['/connect'] = require('./controllers/ConnectController');
 
 module.exports = routes;
